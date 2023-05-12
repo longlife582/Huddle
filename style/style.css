@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100vw;
+    
+}
+
+.logo{
+    width: 10vw;
+    height: auto;
+}
+
+.free{
+background-color: #ffff;
+font-size: 15px;
+display: flex;
+justify-content: center;
+padding: 12px;
+width: 10vw;
+border-radius: 4em;
+font-family: "popins";
+font-weight: 900;
+/* border-color: #ffff; */
+border-style: none;
+cursor: pointer;
+}
+
+
+
+
+.contain1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    margin: auto;
+    width: 100vw;
+    
+}
+
+.left h1{
+    font-family: "poppins";
+
+}
+
+.left p{
+    width: 70%;
+    font-size: 13px;
+    
+}
+
+.right{
+    /* margin: 0px 30px; */
+    padding: 40px;
+    /* width: 70%; */
+
+   
+   
+}
+
+.right img{
+    max-width: 100%;
+    max-width: 100%;
+}
+.Get{
+font-size: 15px;
+display: flex;
+justify-content: center;
+padding: 12px;
+width: 15vw;
+border-radius: 4em;
+font-family: "popins";
+font-weight: 1000;
+background-color: hsl(322, 100%, 66%);
+border-style: none;
+color: #ffff;
+cursor: pointer;
+}
+
+.test{
+    background-image: url(/Assignment/huddle/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* where sector starts */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
+.secton1left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
+    margin-top: 30px;
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+
+
+
+
+
+
+#grow{
+    max-width: 70%;
+    max-height:50%;
+    padding: 10px;
+    margin: 100px;
+    
+    
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
+    margin-top: 30px;
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+   
+  
+}
+
+#time{
+    max-width: 70%;
+    max-height: 50%;
+}
+
+#user{
+    max-width: 70%;
+    max-height: 50%;
+    margin: 100px;
+}
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
+    margin-top: 30px;
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+
+
+
