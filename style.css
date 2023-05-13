@@ -5,8 +5,8 @@
 }
 
 body{
-    width: 100%;
-    padding: 0;
+   /* max-width: 100%; */
+    /* padding: 0; */
     margin: 0;
     overflow-x: hidden;
 }
@@ -17,13 +17,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     /* background-color: aqua; */
-    width: 100vw;
+    width: 100%;
     
 }
 
 .logo{
     width: 10vw;
     height: auto;
+    cursor: pointer;
 }
 
 .free{
@@ -39,6 +40,8 @@ font-weight: 900;
 /* border-color: #ffff; */
 border-style: none;
 cursor: pointer;
+box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
+
 }
 
 
@@ -62,16 +65,13 @@ cursor: pointer;
 .left p{
     width: 70%;
     font-size: 13px;
-    
+
 }
 
 .right{
-    /* margin: 0px 30px; */
-    padding: 40px;
-    /* width: 70%; */
 
-   
-   
+    padding: 40px;
+
 }
 
 .right img{
@@ -99,16 +99,17 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
-/* where sector starts */
-
 section{
+
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 150px;
     padding-bottom: 10px;
+    position: relative;
 }
 
 .secton1left{
@@ -123,11 +124,6 @@ section{
     border-radius: 10px;
    
 }
-
-
-
-
-
 
 #grow{
     max-width: 70%;
@@ -175,7 +171,169 @@ section{
     border-radius: 10px;
 
 }
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+   
+    box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
 
+    border-radius: 10px;
+    padding: 25px; 
+    /* position: absolute; */
+    /* z-index: 3; */
+   
+    
+}
 
+.ready button{
+    font-size: 15px;
+display: flex;
+justify-content: center;
+padding: 12px;
+width: 15vw;
+border-radius: 4em;
+font-family: "popins";
+font-weight: 1000;
+background-color: hsl(322, 100%, 66%);
+border-style: none;
+color: #ffff;
+cursor: pointer;
 
+}
 
+.ready h2{
+    font-size: 20px;
+    font-weight: 1000;
+
+}
+
+.ready button{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    background-size: cover;
+    margin-top: -120px;
+    margin-bottom: -40px;
+    color: hsl(193, 100%, 96%);
+    width: fit-content;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 20px;
+    width: 100%;
+}
+
+.fill{
+    fill: #ffff;
+}
+
+#location{
+    display: flex;
+    /* background-color: aqua; */
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#location p{
+    font-size: 12px;
+}
+
+.icon{
+    width: 30px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+#phone{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#email{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo{
+    width: 30%;
+
+}
+
+#logo svg{
+    width: 100%;
+height: 100%;
+margin-top: 50px;
+}
+
+.secondli{
+   margin-right: 30em;
+   margin-top: 100px;
+
+}
+.secondli ul{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+    
+}
+
+ li{
+    width: 200px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.firstli1 ul{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 50px;
+
+}
+
+.firstli1{
+    margin-top: 100px;
+}
+
+.right2{
+    padding: 60px;
+    margin-top: 30px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    width: 28%;
+}
