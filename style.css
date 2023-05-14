@@ -344,14 +344,34 @@ margin-top: 50px;
   @media screen and (max-width:575px) {
 
     body{
-        width: 168vw ;
+        width: 200vw ;
         margin: 0;
 
     }
 
    footer{
     /* background-color: pink; */
-    width: 168vw ;
+    width: 200vw ;
+   }
+
+   .secton1left{
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 50px;
+    margin-top: -70px;
+   }
+
+   .section2{
+    flex-direction: column;
+    height: auto;
+    padding: 50px;
+    /* margin-top: -70px; */
+   }
+
+   .section3{
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 50px;
    }
 
    .right{
@@ -387,6 +407,12 @@ margin-top: 50px;
     width: 30%;
     margin-top: -10px;
    
+  }
+
+  .ready button{
+    font-size: 14px;
+    padding: 15px;
+    width: 70%;
   }
 
 
