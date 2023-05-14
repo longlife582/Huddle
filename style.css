@@ -52,7 +52,7 @@ box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
     justify-content: space-between;
     align-items: center;
     padding: 2em;
-    margin: auto;
+    /* margin: auto; */
     width: 100vw;
     
 }
@@ -105,6 +105,7 @@ cursor: pointer;
 section{
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding-top: 150px;
@@ -148,10 +149,10 @@ section{
   
 }
 
-#time{
+ #time{
     max-width: 70%;
     max-height: 50%;
-}
+} 
 
 #user{
     max-width: 70%;
