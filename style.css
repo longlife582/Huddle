@@ -62,7 +62,6 @@ box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
     /* background-color: aqua; */
     align-items: center;
     padding: 2em;
-    /* margin: auto; */
     width: 100vw;
     
 }
@@ -89,7 +88,7 @@ box-shadow: 0px 0px 15px 3px hsla(192, 100%, 9%, 0.1);
 
 .right img{
     max-width: 100%;
-    /* max-width: 100%; */
+    
 }
 .Get{
 font-size: 15px;
@@ -261,7 +260,6 @@ justify-content: space-between;
 
 #location{
     display: flex;
-    /* background-color: aqua; */
     width: 80%;
     padding: 10px;
     align-items: center;
@@ -327,7 +325,6 @@ margin-top: 50px;
     display: flex;
     flex-direction: column;
     padding: 50px;
-
     
 }
 
@@ -357,7 +354,6 @@ margin-top: 50px;
     padding: 60px;
     margin-top: 30px;
     margin-right: -370px;
-    /* background-color: red; */
 }
 
 .icons{
@@ -374,7 +370,6 @@ margin-top: 50px;
 }
  
 .copyright{
-    /* background-color: aqua; */
  display: flex;
 margin-top: 320px;
 width: 25%;
@@ -382,7 +377,14 @@ align-items: center;
 justify-content: center;
 }
 
+.hover:hover{
+    fill: palevioletred;
+   
+}
 
+.facebook:hover{
+    border-color: palevioletred;
+}
 
   @media screen and (max-width:578px) {
 
