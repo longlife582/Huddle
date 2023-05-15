@@ -18,14 +18,23 @@ nav{
     align-items: center;
     /* background-color: aqua; */
     width: 100%;
+    margin-top: -30px;
     
 }
 
-.logo{
+.huddle{
+    font-family: "poppins";
+    font-weight: 1000;
+    cursor: pointer;
+    /* width: 100px; */
+    /* padding: 20px; */
+}
+
+/* .logo{
     width: 10vw;
     height: auto;
     cursor: pointer;
-}
+} */
 
 .free{
 background-color: #ffff;
@@ -341,12 +350,16 @@ margin-top: 50px;
 
 
 
-  @media screen and (max-width:575px) {
+  @media screen and (max-width:578px) {
 
     body{
         width: 200vw ;
         margin: 0;
 
+    }
+
+     nav{
+      padding: 4em;
     }
 
    footer{
@@ -403,7 +416,7 @@ margin-top: 50px;
   }
 
   .free{
-    padding: 23px;
+    padding: 15px;
     width: 30%;
     margin-top: -10px;
    
@@ -415,5 +428,66 @@ margin-top: 50px;
     width: 70%;
   }
 
+  #grow{
+    margin: 50px;
+    align-items: center;
+    margin-top: -11px;
+  }
+
+  .grow{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .grow h2{
+   font-family: "poppins";
+   display: flex;
+   justify-content: center;
+   
+   
+  }
+
+  .grow p{
+    width: 100%;
+  }
+
+  .section2{
+    padding: 50px;
+  }
+  #time{
+    margin: 50px;
+    align-items: center;
+    margin-top: -11px;
+  }
+
+  .flow{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flow h2{
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+  }
+
+  .flow p{
+    width: 100%;
+  }
+
+#user{
+    margin: 50px;
+    align-items: center;
+    margin-top: -11px;
+
+}
+
+.section3left h2{
+    display: flex;
+    font-family: "poppins";
+    justify-content: center;
+
+}
 
   }
